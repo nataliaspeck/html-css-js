@@ -1,0 +1,33 @@
+h1{
+    background-color: yellow; /* Me ajuda a entender o tamanho da caixa */
+
+    /* Content */
+    width: 100px;
+    height: 100px;
+    
+    /* Padding */
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 0px; 
+    padding-right: 50px;
+
+    /* Margin */
+    margin: auto;
+    margin-top: 50px;
+
+    /* Border */
+    border-style: dotted;
+    border-color: black;
+    border-width: 5px;
+
+    color: rebeccapurple;
+    text-align: center;
+}
+
+img{
+    border-style: groove;
+    border-color: black;
+    border-width: 5px;
+    margin: 40px;
+    padding: 30px 30px 30px 30px;
+}
