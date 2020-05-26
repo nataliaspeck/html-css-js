@@ -1,0 +1,28 @@
+body{
+    background: white;
+    font-family: Arial, Helvetica, sans-serif; /* Tenta a primeira, se não conseguir segue para as próximas */
+}
+
+#lerolero{
+    color: red;
+    line-height: 1.5; /* Espaçamento entre linhas */
+}
+
+.coffe{
+    float: left; /* Imagem se "junta" com o texto */
+    width: 100%; /* 100% para sempre preencher a tela e não dinamizar*/
+    height: 100%;
+}
+
+.title{
+    font-style: italic;
+    font-size: 50px;
+    font-variant: small-caps; /* Caixa alta, normal (padrão) etc */
+    text-decoration: line-through; /* Decoração: riscado, sublinhados, etc */
+    text-align: center; /* Alinhamento: centro, à direita, à esquerda, justificado, etc */
+    background-image: url(/home/natalia/html-guide/aula-1-html-css/business-pug-working-on-laptop.jpg); /* Colocando imagens de fundo no CSS */
+    background-attachment: scroll; /* Imagem vai ficar fixa ou scroll */
+    background-repeat: repeat-x; /* Imagem vai se repetir (em um eixo ou não) ou não*/
+    background-size: 150px;
+    background-position: right bottom; /* Alinha a imagem utilizando posições desejadas */ 
+}

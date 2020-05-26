@@ -1,0 +1,66 @@
+body{
+    background-color: #ccc;
+    margin: 0;
+}
+
+.menu{
+    background-image: url(/home/natalia/html-guide/aula-2-html-css/bg-3.jpg);
+    background-position: right center;
+    background-size: cover;
+    height: 500px;
+}
+
+.titulos{
+    text-align: center;
+    color: white;
+}
+
+main{
+    width: 80%;
+    margin: auto; /* centralizar */
+}
+
+.cardsSection{
+    background-color: white;
+    margin: auto;
+}
+
+.textSection{
+    background-color: white;
+}
+
+.titulos h1{
+    text-transform: uppercase;
+    font-size: 80px;
+    text-shadow: 3px 3px 2px black;
+}
+
+.seletores{
+    color: white;
+    float: left;
+    text-transform: uppercase;
+    text-align: left;
+    background-color: grey;
+}
+
+.posicionamento{
+    color: white;
+    float: left;
+    text-transform: uppercase;
+    text-align: left;
+    background-color: grey;
+}
+
+.fontesIcones{
+    color: white;
+    float: left;
+    text-transform: uppercase;
+    text-align: left;
+    background-color: grey;
+}
+
+footer{
+    background-color: grey;
+    color: white;
+    text-align: center;
+}
