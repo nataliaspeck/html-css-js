@@ -1,0 +1,34 @@
+/* Elementos de bloco */
+
+.block h1, .blockp, footer, ul, ol, li{
+    border: 3px solid red;
+}
+
+/* Elementos de linha */
+/* Não é uma boa prática utilizar princípios de box-model em elementos inline */
+
+img, a, strong, span, i, em, b{
+    background-color: yellow;
+}
+
+/* Transformando um elemento de linha em elemento de bloco para poder ser manipulado pelo box-model */
+a{
+    display: block;
+}
+
+/* Transformando um elemento de linha em elemento de bloco, porém mantendo o comportamento inline para poder ser manipulado pelo box-model */
+a{
+    display: inline-block;
+    padding: 20px;
+}
+
+/* O elemento irá sumir e seu "bloco" também */
+img{
+    display: none;
+}
+
+/* O elemento irá sumir porém seu bloco permanece reservado*/
+img{
+    display: block;
+    visibility: hidden;
+}
