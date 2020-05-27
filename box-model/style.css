@@ -31,3 +31,19 @@ img{
     margin: 40px;
     padding: 30px 30px 30px 30px;
 }
+
+h2{
+    text-align: center;
+    background-color: royalblue;
+    height: 150px;
+    width: 150px;
+    padding: 30px; /* Por padrão, o valor do padding é sempre adicionado aos valores de height e width, aumentando o tamanho do bloco */
+    box-sizing: border-box; /* Podemos usar a propriedade box-sizing para impedir que o valor do padding seja adicionado a altura ou largura do bloco, porém continue sendo aplicado ao conteúdo */
+}
+
+.float-clear{
+    /* Evitar utilizar este elemento pois tem muitos efeitos colaterais. Altera o comportamento/bloco de todos os elementos irmãos. Essa propriedade permite que tiremos um elemento do fluxo vertical da página e automaticamente faz com que o conteúdo que venha a seguir flutue ao seu redor.*/
+    float: right;
+    /* Usamos este elemento para limpar a formatação imposta por um Float. Os elementos são "empurrados" para baixo de elementos com float.*/
+    clear: both;
+}
