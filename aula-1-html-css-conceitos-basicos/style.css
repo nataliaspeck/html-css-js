@@ -20,7 +20,7 @@ body{
     font-variant: small-caps; /* Caixa alta, normal (padrão) etc */
     text-decoration: line-through; /* Decoração: riscado, sublinhados, etc */
     text-align: center; /* Alinhamento: centro, à direita, à esquerda, justificado, etc */
-    background-image: url(/home/natalia/html-guide/aula-1-html-css-conceitos-basicos/business-pug-working-on-laptop.jpg); /* Colocando imagens de fundo no CSS */
+    background-image: url(business-pug-working-on-laptop.jpg); /* Colocando imagens de fundo no CSS */
     background-attachment: scroll; /* Imagem vai ficar fixa ou scroll */
     background-repeat: repeat-x; /* Imagem vai se repetir (em um eixo ou não) ou não*/
     background-size: 150px;
