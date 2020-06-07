@@ -7,7 +7,6 @@
 }
 
 .one,
-.two,
 .three {
     border: 1px solid black;
     margin: 2px;
@@ -23,7 +22,10 @@
 }
 
 .two {
-    position: relative;
+    border: 1px solid black;
+    padding: 5px;
+
+    position: absolute;
     /* Posicionamento relativo ao primeiro elemento pai que seja posicionado (qualquer position que não static). Caso não tenha, se relaciona com o browser. */
     top: 10px;
     right: 10px;
@@ -37,3 +39,34 @@
 }
 
 /* Propriedade z-index (default: 0) cuida da sobreposição dos elementos. Z-index maiores ficam por cima. */
+
+.first {
+    background-color: red;
+    margin-top: 30px;
+    padding: 10px;
+    height: 100px;
+    width: 100%;
+    border: 3px solid black;
+    position: relative;
+    top: 60px;
+}
+
+.second {
+    background-color: yellow;
+    padding: 10px;
+    width: 70%;
+    height: 70%;
+    position: relative;
+    top: 40px;
+}
+
+.third {
+    background-color: aqua;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
