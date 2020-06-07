@@ -1,31 +1,37 @@
-.container{
+.container {
     width: 100px;
     height: 100%;
     background-color: yellow;
-    position: static; /* DEFAULT. Significa que preserva ordem em que seus elementos aparecem no HTML. Chamamos de elemento NÃO posicionado.*/
+    position: static;
+    /* DEFAULT. Significa que preserva ordem em que seus elementos aparecem no HTML. Chamamos de elemento NÃO posicionado.*/
 }
 
-.one, .two, .three{
+.one,
+.two,
+.three {
     border: 1px solid black;
     margin: 2px;
     padding: 20%;
     text-align: center;
 }
 
-.one{
-    position: relative; /* Posicionamento relativo a si mesmo. Deslocamento de acordo com as propriedades abaixo: */
+.one {
+    position: relative;
+    /* Posicionamento relativo a si mesmo. Deslocamento de acordo com as propriedades abaixo: */
     top: 10px;
     left: 10px;
 }
 
-.two{
-    position: relative; /* Posicionamento relativo ao primeiro elemento pai que seja posicionado (qualquer position que não static). Caso não tenha, se relaciona com o browser. */
+.two {
+    position: relative;
+    /* Posicionamento relativo ao primeiro elemento pai que seja posicionado (qualquer position que não static). Caso não tenha, se relaciona com o browser. */
     top: 10px;
     right: 10px;
 }
 
-.three{
-    position: fixed; /* Posicionamento relativo ao browser. */
+.three {
+    position: fixed;
+    /* Posicionamento relativo ao browser. */
     bottom: 10px;
     right: 10px;
 }

@@ -1,14 +1,15 @@
-h1{
-    background-color: yellow; /* Me ajuda a entender o tamanho da caixa */
+h1 {
+    background-color: yellow;
+    /* Me ajuda a entender o tamanho da caixa */
 
     /* Content */
     width: 100px;
     height: 100px;
-    
+
     /* Padding */
     padding-top: 50px;
     padding-left: 50px;
-    padding-bottom: 0px; 
+    padding-bottom: 0px;
     padding-right: 50px;
 
     /* Margin */
@@ -24,7 +25,7 @@ h1{
     text-align: center;
 }
 
-img{
+img {
     border-style: groove;
     border-color: black;
     border-width: 5px;
@@ -32,16 +33,18 @@ img{
     padding: 30px 30px 30px 30px;
 }
 
-h2{
+h2 {
     text-align: center;
     background-color: royalblue;
     height: 150px;
     width: 150px;
-    padding: 30px; /* Por padrão, o valor do padding é sempre adicionado aos valores de height e width, aumentando o tamanho do bloco */
-    box-sizing: border-box; /* Podemos usar a propriedade box-sizing para impedir que o valor do padding seja adicionado a altura ou largura do bloco, porém continue sendo aplicado ao conteúdo */
+    padding: 30px;
+    /* Por padrão, o valor do padding é sempre adicionado aos valores de height e width, aumentando o tamanho do bloco */
+    box-sizing: border-box;
+    /* Podemos usar a propriedade box-sizing para impedir que o valor do padding seja adicionado a altura ou largura do bloco, porém continue sendo aplicado ao conteúdo */
 }
 
-.float-clear{
+.float-clear {
     /* Evitar utilizar este elemento pois tem muitos efeitos colaterais. Altera o comportamento/bloco de todos os elementos irmãos. Essa propriedade permite que tiremos um elemento do fluxo vertical da página e automaticamente faz com que o conteúdo que venha a seguir flutue ao seu redor.*/
     float: right;
     /* Usamos este elemento para limpar a formatação imposta por um Float. Os elementos são "empurrados" para baixo de elementos com float.*/
